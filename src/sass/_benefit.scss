@@ -1,0 +1,39 @@
+.benefit {
+    min-height: 702px;
+    background-color: #e5e5e5;
+    &::after {
+        content: url('../img/found.png');
+        position: absolute;
+        top: 1134px;
+        right: 135px;
+
+    }
+    &__container {
+        max-width: 1000px;
+        margin: 0 561px 0 361px;
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 20px;
+            color: #262626;
+            margin-top: 10px;
+            margin-bottom: 83px;
+        }
+    }
+    &__items {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #262626;
+        margin-bottom: 5px;
+        }
+        p {
+
+        }
+
+    }
+}

@@ -1,0 +1,13 @@
+<svg width="71" height="87" viewBox="0 0 71 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="35.5" cy="51.5" r="34" stroke="#80CA16" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M36.5 35.5C36.5 34.6716 35.8284 34 35 34C34.1716 34 33.5 34.6716 33.5 35.5V46.189C33.9794 46.0656 34.4821 46 35 46C35.5179 46 36.0206 46.0656 36.5 46.189V35.5ZM39.9756 55.3542C39.4082 56.1942 38.6337 56.8828 37.7254 57.3467L50.9393 70.5607C51.5251 71.1464 52.4749 71.1464 53.0607 70.5607C53.6464 69.9749 53.6464 69.0251 53.0607 68.4393L39.9756 55.3542Z" fill="#80CA16"/>
+<circle cx="35" cy="52" r="4.5" stroke="#80CA16" stroke-width="3"/>
+<mask id="path-4-inside-1" fill="white">
+<rect x="27" y="9" width="17" height="10" rx="2"/>
+</mask>
+<rect x="27" y="9" width="17" height="10" rx="2" stroke="#80CA16" stroke-width="6" mask="url(#path-4-inside-1)"/>
+<mask id="path-5-inside-2" fill="white">
+<rect x="21" width="29" height="12" rx="2"/>
+</mask>
+<rect x="21" width="29" height="12" rx="2" stroke="#80CA16" stroke-width="6" mask="url(#path-5-inside-2)"/>
+</svg>

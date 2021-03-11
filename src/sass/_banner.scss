@@ -1,0 +1,60 @@
+.banner {
+    
+    margin-top: 100px;
+    min-height: 883px;
+    background: url('../img/banner.jpg') center (center/cover) no-repeat;
+    &__descr {
+        min-width: 1010px;
+        min-height: 500px;
+        position: absolute;
+        margin-top: 155px;
+        margin-left: 361px;
+        
+    }
+    &__content {
+        padding-top: 68px;
+        padding-left: 73px;
+        padding-bottom: 71px;
+        background: radial-gradient(108.2% 544.03% at 110.06% 109.61%, rgba(177, 138, 0, 0.38) 0%, rgba(0, 0, 0, 0) 100%), rgba(0, 12, 41, 0.8);
+        
+        h1 {
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 78.0125px;
+            color: #FFFFFF;
+        }
+        h2 {
+            font-weight: 500;
+            font-size: 28px;
+            color: #FFFFFF;
+        }
+        &_btn {
+            margin-top: 54px;
+            width: 200px;
+            height: 60px;
+            background: #80CA16;
+            border-radius: 5px;
+            border: none;
+            transition: 0.3s all;
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            &:hover {
+                box-shadow: 0px 0px 15px #80CA16;
+            }
+        }
+        &_img {
+            position: absolute;
+            top:50%;
+            left: 812px;
+            transform: translateY(-60%);
+        }
+        &_arrow {
+            margin-top: 106px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

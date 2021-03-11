@@ -1,0 +1,79 @@
+.header {
+    position: fixed;
+    min-height: 100px;
+    background: #000000;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    &__items {
+        min-height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__item span{ 
+        margin-top: 10px;
+        display: block;
+    }
+    &__item_phone {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: right;
+        color: #80CA16;
+        text-decoration: none;
+        &:hover {
+            color: #80CA16;
+        }
+    }
+    &__item_call {
+        display: block;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: right;
+        color: #FFFFFF;
+        transition: 0.3s all;
+        &:hover {
+            color: #80CA16;
+        }
+    }
+    &__nav_ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0;
+        li {
+            margin-right: 42px;
+            transition: 0.3s all;
+            cursor: pointer;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                color: #80CA16;
+            }
+        }
+        .active {
+           position: relative;
+           &::before {
+            content: "";
+            width: 100%;
+            height: 6px;
+            background: #80CA16;
+            position: absolute;
+            top: 56px;
+            left: 0;
+           }
+        }
+    }
+    .addres {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}

@@ -1,5 +1,22 @@
 @import 'header';
+@import 'banner';
+@import 'benefit';
 
 body {
     font-family: "Montserrat", sans-serif; 
+    background-color: #e5e5e5;
+}
+
+.fixed__arrow {
+    position: fixed;
+    right: 131px;
+    bottom: 91px;
+}
+
+.title {
+    margin-top: 160px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 36px;
+    color: #262626;
 }
